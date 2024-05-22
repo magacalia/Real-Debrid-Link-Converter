@@ -59,10 +59,10 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 
 ### Step 6: Run the Script
 
-6. Finally, run the script, and provide the output file name (must end with .txt):
+6. Finally, run the script, and provide the name for the output file (must end with .txt):
 
    ```bash
    python real-debrid-converter.py
    ```
    
-   After processing all links, the script generates the new file (with the previously specified name) in the same directory. This file maintains the original order of links but presents them as Real Debrid direct download links.
+   After processing all links, the script generates the output in the same directory. This file maintains the original order of links but presents them as Real Debrid direct download links.
