@@ -38,12 +38,12 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 
 3. Generate your Real Debrid API key:
    Go to [Real Debrid API Token](https://real-debrid.com/apitoken) and generate your API key.
-   
-   <u>Disclaimer:</u> A Premium Real Debrid Subscription is required for the API key to function.
+   _Disclaimer:_ A Premium Real Debrid Subscription is required for the API key to function.
 
 ### Step 4: Configure the Script
 
 4. Open `real-debrid-converter.py` in a text editor and replace `'YOUR_API_KEY_HERE'` with your Real Debrid API key:
+
    ```python
    api_credentials = {'auth_token': 'YOUR_API_KEY_HERE'}
 
@@ -57,6 +57,7 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 ### Step 6: Run the Script
 
 6. Run the script:
+
    ```bash
    python real-debrid-converter.py
    ```
