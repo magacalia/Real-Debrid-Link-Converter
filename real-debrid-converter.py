@@ -7,7 +7,7 @@ api_credentials = {'auth_token': 'YOUR_API_KEY_HERE'}
 output_file_name = input('Output File Name: ')
 
 start = perf_counter()
-with open('episodes.txt') as input_file:
+with open('hoster-links.txt') as input_file:
     with open(output_file_name, 'w') as output_file:
 
         total_episodes = len(input_file.readlines())
