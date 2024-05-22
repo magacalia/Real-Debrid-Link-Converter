@@ -49,7 +49,7 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 
 ### Step 5: Prepare Your Input File
 
-5. You must provide your input .txt file, containing the hoster's links, in the same directory as the script:
+5. You must provide your input .txt file, containing the hoster's links, in the same directory as the script.
    By default, the script reads from `hoster-links.txt`. You can modify this file to include your list of links, with each link on a new line.
 
 ### Step 6: Run the Script
