@@ -38,7 +38,7 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 
 3. Generate your Real Debrid API key:
    Go to [Real Debrid API Token](https://real-debrid.com/apitoken) and generate your API key.
-   Disclaimer: A Premium Real Debrid Subscription is required for the API key to function.
+   <u>Disclaimer:</u> A Premium Real Debrid Subscription is required for the API key to function.
 
 ### Step 4: Configure the Script
 
