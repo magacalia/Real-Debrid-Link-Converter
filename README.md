@@ -60,4 +60,5 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
    ```
 
    When prompted, enter the name for the output file (must end with .txt).
-   After processing all links from the input file, the script generates an output file in the same directory. The output file mirrors the order of links from the original file, containing all Real Debrid direct download links.
+
+   After processing all links, the script generates the new file (with the previously specified name) in the same directory. This file maintains the original order of links but presents them as Real Debrid direct download links.
