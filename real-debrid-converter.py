@@ -10,13 +10,13 @@ start = perf_counter()
 with open('hoster-links.txt') as input_file:
     with open(output_file_name, 'w') as output_file:
 
-        total_episodes = len(input_file.readlines())
+        total_links = len(input_file.readlines())
         input_file.seek(0)
 
         for index, link in enumerate(input_file, start=1):
             r = requests.post('https://api.real-debrid.com/rest/1.0/unrestrict/link', data={'link': link}, params=api_credentials)
             output_file.write(r.json()['download'] + '\n')
-            print(f'[{index}/{total_episodes}] {r.json()['filename']}')
+            print(f'[{index}/{total_links}] {r.json()['filename']}')
 end = perf_counter()
 
 print(f'Finished [{(end - start):.02f}s].')
