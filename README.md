@@ -22,6 +22,7 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 ### Step 1: Download the Script
 
 1. Clone the repository or download the script directly:
+   
    ```bash
    git clone https://github.com/magacalia/Real-Debrid-Link-Converter.git
    cd Real-Debrid-Link-Converter
@@ -30,6 +31,7 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 ### Step 2: Install Requests Library
 
 2. Ensure you have the requests library installed. If not, install it using pip:
+   
    ```bash
    pip install requests
    ```
@@ -38,7 +40,8 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 
 3. Generate your Real Debrid API key:
    Go to [Real Debrid API Token](https://real-debrid.com/apitoken) and generate your API key.
-   _Disclaimer:_ A Premium Real Debrid Subscription is required for the API key to function.
+   
+   _Disclaimer_: A Premium Real Debrid Subscription is required for the API key to function.
 
 ### Step 4: Configure the Script
 
