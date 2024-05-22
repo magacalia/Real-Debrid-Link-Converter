@@ -6,7 +6,7 @@ A simple Python script that converts multiple links from various file hosters in
 
 Imagine you have a list of links from various file hosters (e.g., 1fichier) that you want to convert into multiple direct download links. This script automates the process using the Real Debrid API, saving you time and effort. 
 
-This can be especially useful if you want to stream video files in programs such as mpv, mpc, or vlc, as the Real Debrid links can be directly streamed via their url.
+This can be especially useful if you want to stream different video files in programs such as mpv, mpc, or vlc, without the need to manually convert them using the Real Debrid web interface. 
 
 ## Features
 
