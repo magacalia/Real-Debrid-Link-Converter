@@ -23,7 +23,7 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 
 1. Clone the repository or download the script directly:
    ```bash
-   git clone https://github.com/your-username/link-converter.git
+   git clone https://github.com/magacalia/Real-Debrid-Link-Converter.git
    cd link-converter
    ```
 
