@@ -63,7 +63,7 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 
    ```bash
    python real-debrid-converter.py
-   Output File Name: direct-download-links.txt # customize the file's name as you want
+   
    ```
    
    After processing all links, the script generates the output file in the same directory. It maintains the original order of links but presents them as Real Debrid direct download links.
