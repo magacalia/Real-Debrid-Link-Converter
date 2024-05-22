@@ -9,7 +9,7 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 ## Features
 
 - Converts links from Real Debrid supported file hoster services to direct downloads.
-- Processes input from a text file.
+- Provides real-time progress tracking during link processing.
 - Outputs results to a specified text file.
 
 ## Requirements
@@ -49,7 +49,7 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 
 ### Step 5: Prepare Your Input File
 
-5. Optionally, prepare your input file:
+5. You must provide your input .txt file, containing the hoster's links, in the same directory as the script:
    By default, the script reads from `episodes.txt`. You can modify this file to include your list of links, with each link on a new line.
 
 ### Step 6: Run the Script
@@ -60,4 +60,4 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
    ```
 
    When prompted, enter the name for the output file (must end with .txt).
-   
+   The new text file will be created in the same directory, containing all the Real Debrid direct download links in the same order as the original file.   
