@@ -42,7 +42,8 @@ Imagine you have a list of links from various file hosters (e.g., 1fichier) that
 ### Step 6: Run the Script
 6. Run the script:
    ```bash
-   python real-debrid-converter.py```
+   python real-debrid-converter.py
+   ´´´
    When prompted, enter the name for the output file (must end with .txt).
 
 
